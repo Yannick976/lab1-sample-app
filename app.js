@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
 const port = process.env.PORT || 8080;
 const host = '0.0.0.0'; // écoute sur toutes les interfaces
 
-server.listen(port, host, () => {
-  console.log(`Listening on ${host}:${port}`);
+server.listen(port, '0.0.0.0', () => {
+  console.log(`Listening on 0.0.0.0:${port}`);
 });
+
