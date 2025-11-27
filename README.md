@@ -1,3 +1,2 @@
-Hello Lab 4!
-Adding a new line
-Feature work
+# DevOps Lab
+This is a sample repository for the DevOps lab.
